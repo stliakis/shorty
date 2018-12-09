@@ -1,0 +1,13 @@
+bernhard==0.2.6
+Click==7.0
+Flask==1.0.2
+itsdangerous==1.1.0
+Jinja2==2.10
+logstash-formatter==0.5.17
+MarkupSafe==1.1.0
+pkg-resources==0.0.0
+protobuf==3.6.1
+pymongo==3.7.2
+riemann-wrapper==0.6.2
+six==1.11.0
+Werkzeug==0.14.1
