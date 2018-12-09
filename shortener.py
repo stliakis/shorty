@@ -11,6 +11,7 @@ class UrlShortener:
         mongo_client = pymongo.MongoClient("mongodb://localhost:27017/")
         mongo_database = mongo_client["shorty"]
         self.urls = mongo_database["urls"]
+        self.urls.create_index([("hash", 1)], unique=True)
 
     def shortcode(self, url):
         """
